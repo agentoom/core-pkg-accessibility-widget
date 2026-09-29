@@ -1,0 +1,23 @@
+{
+    "name": "agentoom/core-accessibility-widget",
+    "description": "Agentoom Accessibility Widget package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agentoom\\AccessibilityWidget\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^13.0",
+        "agentoom/core-main": "*@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agentoom\\AccessibilityWidget\\Providers\\AccessibilityWidgetServiceProvider"
+            ]
+        }
+    }
+}
