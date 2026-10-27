@@ -1,5 +1,6 @@
 {
     "name": "agentoom/core-accessibility-widget",
+    "version": "0.8.0",
     "description": "Agentoom Accessibility Widget package",
     "type": "library",
     "license": "MIT",
